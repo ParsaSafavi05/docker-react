@@ -1,0 +1,6 @@
+2024-10-19 10:59:33.220 [info] Started local extension host with pid 1910.
+2024-10-19 10:59:33.317 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2024-10-19 10:59:33.832 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///root/.vscode/extensions Unable to create file 'vscode-userdata:/root/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-10-19 10:59:33.833 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2024-10-19 10:59:36.220 [info] [perf] Render performance baseline is 28ms
+2024-10-19 10:59:44.890 [warning] [perf] Renderer reported VERY LONG TASK (487ms), starting profiling session '9a09c66a-d0c6-493d-a4bc-a512959e1fc0'

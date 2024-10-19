@@ -1,0 +1,14 @@
+FROM node:alpine
+
+WORKDIR '/app'
+
+COPY package.json package-lock.json ./
+
+RUN npm cache clean --force \ && npm install --verbose --fetch-timeout=60000 \
+--registery=https://registery.npmmirror.com/
+
+COPY . .
+
+CMD ["npm", "run", "start"]
+
+
